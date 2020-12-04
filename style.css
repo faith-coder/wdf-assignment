@@ -7,13 +7,13 @@ body{
 font-family: Verdana, italics;
 background-color: #DCDCDC;
 font-size: 24px;
-color: white;
+color: black;
 }
-/* Style the header */
 header {
-  background-color: black;
-  padding: 10x;
-  color: white;
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
 }
 
 section:after {
@@ -22,12 +22,6 @@ section:after {
   padding: 10px;
 }
 
-/* Style the footer */
-footer {
-  background-color: black;
-  padding: 10x;
-  color: white;
-}
 .navbar{
 	display: flex;
 	align-items: center;
@@ -58,9 +52,7 @@ a{
 	
 }
 p{
-	color: white;
-		
-
+	color: black;
 }
 .testimonial{
 	padding-top: 100px;
@@ -95,3 +87,48 @@ p{
 	color: #555;
 	font-size: 10px;
 }
+table {
+   border: 1px solid #999;
+   border-collapse: collapse;
+   font-family: Georgia, Times, serif;
+   }
+   th {
+   border: 1px solid #999;
+   font-size: 70%;
+   text-transform: uppercase;
+   }
+   td {
+   border: 1px solid #999;
+   height: 5em;
+   width:5em;
+   padding: 5px;
+   vertical-align: top;
+   }
+   caption {
+   font-size: 300%;
+   font-style: italic;
+   }
+   .day {
+   text-align: right;
+   }
+   .notes {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 80%;
+   text-align: right;
+   padding-left: 20px;
+   }
+   .opening {
+   background-color: #ECE;
+   }
+   .weekend {
+   background-color: #F3F3F3;
+   }
+   .movie {
+   background-color: #F08080;
+   }
+   .talk {
+   background-color: #FFA500;
+   }
+   .activity {
+   background-color: #00FA9A;
+   }
